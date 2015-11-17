@@ -7,12 +7,7 @@
 @import "state";
 
 
-.ovverride{
-  margin-right: 0px;
-  margin-left: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-}
+
 .moveDown{
 }
 .hero {
@@ -28,14 +23,18 @@
 .playbutton {
  width:30px;
  height:30px;
+ cursor:pointer;
 }
 .boardButtons {
  width:30px;
  height:30px;
  cursor: pointer;;
 }
-.centerPlz {
- text-align: center;
+.centerPlz{
+   text-align: center;
+}
+.thing {
+ font-family:RoshiRegular;
 }
 .topnav {
  text-transform: uppercase;
@@ -85,4 +84,7 @@
 .sequencer{
  margin:30px;
  text-align: center;
+}
+.helper {
+
 }

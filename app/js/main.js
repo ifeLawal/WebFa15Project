@@ -25,6 +25,35 @@ $( document ).ready(function() {
 			});
 		}
 
+	function play(pos) {
+		var playing = $data[pos].playing;
+
+		console.log($data[pos].playing);
+
+		console.log(samples);
+		if($data[pos].playing) {
+			samples.stop($data[pos].key);
+		}
+		else {
+			samples.start($data[pos].key);
+		}
+
+	}
+
+/*
+	function toggleImgSrc(pos) {
+		if($data[pos].playing) {
+		// and animate, fade out, fade in, add and remove classes
+			$(this).attr("src","img/ButtonBoardActive.jpg");
+			//snd/musicradar-minimal-house-samples
+		}
+		else {
+			$(this).attr("src", $data[pos].img);
+			console.log($data[pos].img);
+		}
+	}
+*/
+
 		$button.click(function( event ) {
 			//alert( "The link will no longer take you to jquery.com" );
 			//event.preventDefault();
@@ -37,32 +66,20 @@ $( document ).ready(function() {
 			}
 			console.log($data[pos].class);
 
-			var playing = $data[pos].playing;
-
-			console.log($data[pos].playing);
-
-			console.log(samples);
-			if($data[pos].playing) {
-				samples.stop($data[pos].key);
-			}
-			else {
-				samples.start($data[pos].key);
-			}
+			play(pos);
 
 			$data[pos].playing = !$data[pos].playing;
 			console.log($data[pos].playing);
 
 			if($data[pos].playing) {
 			// and animate, fade out, fade in, add and remove classes
-				$(this).attr("src","img/ButtonBoardActive.jpg");
+				$(this).attr("src","img/ButtonBoardActive.png");
 				//snd/musicradar-minimal-house-samples
 			}
 			else {
 				$(this).attr("src", $data[pos].img);
 				console.log($data[pos].img);
 			}
-
-
 		});
 	}
 

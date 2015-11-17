@@ -5,7 +5,7 @@
     "class": "bB0",
     "looping": "true",
     "playing": "false",
-    "img": "img/BoardButton.jpg"
+    "img": "img/BoardButton.png"
   },
   {
     "path": "../snd/bass_02.ogg",
@@ -13,7 +13,7 @@
     "class": "bB1",
     "looping": "true",
     "playing": "false",
-    "img": "img/BoardButton2.jpg"
+    "img": "img/BoardButton2.png"
   },
   {
     "path": "../snd/bass_03.ogg",
@@ -21,7 +21,7 @@
     "class": "bB2",
     "looping": "true",
     "playing": "false",
-    "img": "img/BoardButton.jpg"
+    "img": "img/BoardButton.png"
   },
   {
     "path": "../snd/bass_04.ogg",
@@ -29,7 +29,7 @@
     "class": "bB3",
     "looping": "true",
     "playing": "false",
-    "img": "img/BoardButton2.jpg"
+    "img": "img/BoardButton2.png"
   },
   {
     "path": "../snd/beat_01.ogg",
@@ -37,7 +37,7 @@
     "class": "bB4",
     "looping": "true",
     "playing": "false",
-    "img": "img/BoardButton.jpg"
+    "img": "img/BoardButton.png"
   },
   {
     "path": "../snd/synth_01.ogg",
@@ -45,7 +45,7 @@
     "class": "bB5",
     "looping": "true",
     "playing": "false",
-    "img": "img/BoardButton2.jpg"
+    "img": "img/BoardButton2.png"
   },
   {
     "path": "../snd/synth_02.ogg",
@@ -53,7 +53,7 @@
     "class": "bB5",
     "looping": "true",
     "playing": "false",
-    "img": "img/BoardButton2.jpg"
+    "img": "img/BoardButton2.png"
   },
   {
     "path": "../snd/synth_03.ogg",
@@ -61,7 +61,7 @@
     "class": "bB6",
     "looping": "true",
     "playing": "false",
-    "img": "img/BoardButton.jpg"
+    "img": "img/BoardButton.png"
   },
   {
     "path": "../snd/synth_04.ogg",
@@ -69,6 +69,6 @@
     "class": "bB7",
     "looping": "true",
     "playing": "false",
-    "img": "img/BoardButton2.jpg"
+    "img": "img/BoardButton2.png"
   }
 ]

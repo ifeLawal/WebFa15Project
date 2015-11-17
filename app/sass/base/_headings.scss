@@ -1,10 +1,17 @@
-/*body {
+body {
 	background-color: $cBackground;
 	color: $cBody;
-	font-family: $fBody, sans-serif;
-	font-size: 16px;
+	font-family: RobotoBlack, $fBody, sans-serif;
+	font-size: 20px;
 	font-weight: $fNormal;
 }
+.ovverride{
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 h1 {
 	color: $cHeadline;
 	font-size: 2em;
@@ -43,4 +50,4 @@ ul {
 }
 li {
 
-}*/
+}
