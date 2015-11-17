@@ -2,46 +2,73 @@
   {
     "path": "../snd/bass_01.ogg",
     "key": "bass_01",
-    "looping": "true"
+    "class": "bB0",
+    "looping": "true",
+    "playing": "false",
+    "img": "img/BoardButton.jpg"
   },
   {
     "path": "../snd/bass_02.ogg",
     "key": "bass_02",
-    "looping": "true"
+    "class": "bB1",
+    "looping": "true",
+    "playing": "false",
+    "img": "img/BoardButton2.jpg"
   },
   {
     "path": "../snd/bass_03.ogg",
     "key": "bass_03",
-    "looping": "true"
+    "class": "bB2",
+    "looping": "true",
+    "playing": "false",
+    "img": "img/BoardButton.jpg"
   },
   {
     "path": "../snd/bass_04.ogg",
     "key": "bass_04",
-    "looping": "true"
+    "class": "bB3",
+    "looping": "true",
+    "playing": "false",
+    "img": "img/BoardButton2.jpg"
   },
   {
     "path": "../snd/beat_01.ogg",
     "key": "beat_01",
-    "looping": "true"
+    "class": "bB4",
+    "looping": "true",
+    "playing": "false",
+    "img": "img/BoardButton.jpg"
   },
   {
     "path": "../snd/synth_01.ogg",
     "key": "synth_01",
-    "looping": "true"
+    "class": "bB5",
+    "looping": "true",
+    "playing": "false",
+    "img": "img/BoardButton2.jpg"
   },
   {
     "path": "../snd/synth_02.ogg",
     "key": "synth_02",
-    "looping": "true"
+    "class": "bB5",
+    "looping": "true",
+    "playing": "false",
+    "img": "img/BoardButton2.jpg"
   },
   {
     "path": "../snd/synth_03.ogg",
     "key": "synth_03",
-    "looping": "true"
+    "class": "bB6",
+    "looping": "true",
+    "playing": "false",
+    "img": "img/BoardButton.jpg"
   },
   {
     "path": "../snd/synth_04.ogg",
     "key": "synth_04",
-    "looping": "true"
+    "class": "bB7",
+    "looping": "true",
+    "playing": "false",
+    "img": "img/BoardButton2.jpg"
   }
 ]

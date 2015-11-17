@@ -3,7 +3,7 @@ $( document ).ready(function() {
 	console.log("document is ready!");
 	var $data;
 
-	var playing = false;
+	//var playing = false;
 	var key = 'what';
 	var snd = '../snd/bass_01.ogg';
 	var looping = true;
@@ -28,19 +28,41 @@ $( document ).ready(function() {
 		$button.click(function( event ) {
 			//alert( "The link will no longer take you to jquery.com" );
 			//event.preventDefault();
+			var pos = 0;
+			console.log($data[pos].class);
+			console.log($data.length);
+			while(!($(this).hasClass($data[pos].class)) && pos < $data.length - 1) {
+				pos++;
+				console.log($data[pos].class);
+			}
+			console.log($data[pos].class);
+
+			var playing = $data[pos].playing;
+
+			console.log($data[pos].playing);
 
 			console.log(samples);
-			if(playing) {
-				samples.stop($data[0].key);
+			if($data[pos].playing) {
+				samples.stop($data[pos].key);
 			}
 			else {
-				samples.start($data[0].key);
+				samples.start($data[pos].key);
 			}
-			playing = !playing;
 
+			$data[pos].playing = !$data[pos].playing;
+			console.log($data[pos].playing);
+
+			if($data[pos].playing) {
 			// and animate, fade out, fade in, add and remove classes
-				$(this).attr("src","img/BoardButton2.jpg");
+				$(this).attr("src","img/ButtonBoardActive.jpg");
 				//snd/musicradar-minimal-house-samples
+			}
+			else {
+				$(this).attr("src", $data[pos].img);
+				console.log($data[pos].img);
+			}
+
+
 		});
 	}
 
