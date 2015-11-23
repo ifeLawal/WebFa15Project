@@ -1,23 +1,28 @@
 $( document ).ready(function() {
-
+	// check that everything is ready
 	console.log("document is ready!");
 	var $data;
 	var subClassNum = 0;
 	var columnSize = 4;
 
-	//var playing = false;
+
+	// var playing = false;
 	var key = 'what';
 	var snd = '../snd/bass_01.ogg';
 	var looping = true;
+
 	// jQuery can help you select HTML elements on your page
+	// grab all of the board buttons
 	var $button = $(".boardButtons");
 
+	// grab the data to play the sound
 	$.get( "../data/samples.json", function( data ) {
  		//console.log(data);
 		$data = data;
 		initboard();
 	});
 
+	/// load all the board files
 	function initboard() {
 		for (var i = 0; i < $data.length; i++) {
 			var sample = $data[i];
@@ -32,7 +37,7 @@ $( document ).ready(function() {
 
 	//	console.log($data[pos].playing);
 
-		//console.log(samples);
+		//console.log(samples)x;
 		if($data[pos].playing) {
 			samples.stop($data[pos].key);
 		}
@@ -40,13 +45,20 @@ $( document ).ready(function() {
 			console.log("tester");
 			samples.start($data[pos].key);
 		}
-
 	}
 
+	/*
 	function playThrough() {
 		for(var i = 0; i < $data.length; i++) {
 	}
+}*/
 
+	function stopEverything() {
+		for(var i = 0; i < $data.length; i++) {
+			samples.stop($data[i].key)
+		}
+	}
+	//setInterval(playThrough, 1000);
 	function playThrough() {
 		if(subClassNum == 7) {
 			subClassNum = 0;
@@ -57,19 +69,15 @@ $( document ).ready(function() {
 		var subClass = "b0" + subClassNum;
 		console.log(subClass);
 		for(var i = 0; i < $data.length; i++) {
-			if($data[i].subclass == subClass && $data[i].playing){
-				console.log("ester");
+			if($data[i].subclass == subClass && $data[i].playing == true){
+				console.log($data[i].playing);
 				samples.start($data[i].key);
 				//console.log(samples.start($data[pos].key));
 			}
-			else{
-				console.log("bester");
+			if($data[i].subclass == subClass && $data[i].playing == false) {
 				samples.stop($data[i].key);
-				//console.log(samples.start($data[pos].key));
 			}
 		}
-
-		setTimeout(playThrough, 1000);
 	}
 /*
 	function toggleImgSrc(pos) {
@@ -84,7 +92,7 @@ $( document ).ready(function() {
 		}
 	}
 */
-		//var myVar = setInterval(playThrough, 1000);
+		var myVar = setInterval(playThrough, 1000);
 
 
 		$button.click(function ( event ) {
@@ -105,6 +113,8 @@ $( document ).ready(function() {
 			console.log(pos);
 			//console.log($data[pos].class);
 			//console.log($data[pos].subclass);
+			console.log($data[pos].playing);
+			$data[pos].playing = !$data[pos].playing;
 
 			if($data[pos].playing) {
 			// and animate, fade out, fade in, add and remove classes
@@ -115,12 +125,11 @@ $( document ).ready(function() {
 				$(this).attr("src", $data[pos].img);
 				console.log($data[pos].img);
 			}
-
-			$data[pos].playing = !$data[pos].playing;
 			//console.log($data[pos].playing);
-			//play(pos);
-			playThrough();
 
+			console.log($data[pos].playing);
+			//play(pos);
+			//setInterval(playThrough, 0);
 		});
 
 

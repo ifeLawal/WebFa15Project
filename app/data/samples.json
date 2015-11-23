@@ -4,17 +4,17 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
     "key": "bass_01",
     "class": "bB0",
-    "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "subclass": "b01",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -22,8 +22,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b02",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -31,8 +31,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b03",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -40,8 +40,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b04",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -49,8 +49,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b05",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -58,8 +58,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b06",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -67,8 +67,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b07",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -76,8 +76,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b08",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -85,8 +85,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b09",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -94,8 +94,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b10",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -103,8 +103,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b11",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -112,8 +112,8 @@
     "key": "bass_01",
     "class": "bB0",
     "subclass": "b12",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -121,8 +121,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -130,8 +130,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b01",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -139,8 +139,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b02",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -148,8 +148,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b03",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -157,8 +157,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b04",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -166,8 +166,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b05",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -175,8 +175,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b06",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -184,8 +184,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b07",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -193,8 +193,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b08",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -202,8 +202,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b09",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -211,8 +211,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b10",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -220,8 +220,8 @@
     "key": "bass_02",
     "class": "bB1",
     "subclass": "b11",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -229,8 +229,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b12",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -238,8 +238,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -247,8 +247,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b01",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -256,8 +256,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b02",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -265,8 +265,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b03",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -274,8 +274,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b04",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -283,8 +283,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b05",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -292,8 +292,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b06",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -301,8 +301,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b07",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -310,8 +310,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b08",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -319,8 +319,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b09",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -328,8 +328,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b10",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -337,8 +337,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b11",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -346,8 +346,8 @@
     "key": "bass_03",
     "class": "bB2",
     "subclass": "b12",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -355,8 +355,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -364,8 +364,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b01",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -373,8 +373,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b02",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -382,8 +382,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b03",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -391,8 +391,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b04",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -400,8 +400,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b05",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -409,8 +409,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b06",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -418,8 +418,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b07",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -427,8 +427,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b08",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -436,8 +436,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b09",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -445,8 +445,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b10",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -454,8 +454,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b11",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -463,8 +463,8 @@
     "key": "bass_04",
     "class": "bB3",
     "subclass": "b12",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -472,8 +472,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -481,8 +481,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b01",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -490,8 +490,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b02",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -499,8 +499,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b03",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -508,8 +508,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b04",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -517,8 +517,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b05",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -526,8 +526,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b06",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -535,8 +535,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b07",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -544,8 +544,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b08",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -553,8 +553,8 @@
     "key": "synth_01",
     "class": "bB5",
     "subclass": "b09",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -562,8 +562,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b10",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -571,8 +571,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b11",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -580,8 +580,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b12",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -589,8 +589,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -598,8 +598,8 @@
     "key": "synth_01",
     "class": "bB5",
     "subclass": "b01",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -607,8 +607,8 @@
     "key": "synth_01",
     "class": "bB5",
     "subclass": "b02",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -616,8 +616,8 @@
     "key": "synth_01",
     "class": "bB5",
     "subclass": "b03",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -625,8 +625,8 @@
     "key": "synth_01",
     "class": "bB5",
     "subclass": "b04",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -634,8 +634,8 @@
     "key": "synth_01",
     "class": "bB5",
     "subclass": "b05",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -643,8 +643,8 @@
     "key": "synth_01",
     "class": "bB5",
     "subclass": "b06",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -652,8 +652,8 @@
     "key": "synth_01",
     "class": "bB5",
     "subclass": "b07",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -661,8 +661,8 @@
     "key": "synth_01",
     "class": "bB5",
     "subclass": "b08",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -670,8 +670,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b09",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -679,8 +679,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b10",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -688,8 +688,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b11",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -697,8 +697,8 @@
     "key": "beat_01",
     "class": "bB4",
     "subclass": "b12",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -706,8 +706,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -715,8 +715,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b01",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -724,8 +724,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b02",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -733,8 +733,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b03",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -742,8 +742,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b04",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -751,8 +751,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b05",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -760,8 +760,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b06",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -769,8 +769,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b07",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -778,8 +778,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b08",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -787,8 +787,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b09",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -796,8 +796,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b10",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -805,8 +805,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b11",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -814,8 +814,8 @@
     "key": "synth_02",
     "class": "bB5",
     "subclass": "b12",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -823,8 +823,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -832,8 +832,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b01",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -841,8 +841,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b02",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -850,8 +850,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b03",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -859,8 +859,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b04",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -868,8 +868,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b05",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -877,8 +877,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b06",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -886,8 +886,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b07",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -895,8 +895,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b08",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -904,8 +904,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b09",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -913,8 +913,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b10",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -922,8 +922,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b11",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -931,8 +931,8 @@
     "key": "synth_03",
     "class": "bB6",
     "subclass": "b12",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -940,8 +940,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b00",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -949,8 +949,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b01",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -958,8 +958,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b02",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -967,8 +967,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b03",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -976,8 +976,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b04",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -985,8 +985,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b05",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -994,8 +994,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b06",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -1003,8 +1003,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b07",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -1012,8 +1012,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b08",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -1021,8 +1021,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b09",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -1030,8 +1030,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b10",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   },
   {
@@ -1039,8 +1039,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b11",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton2.png"
   },
   {
@@ -1048,8 +1048,8 @@
     "key": "synth_04",
     "class": "bB7",
     "subclass": "b12",
-    "looping": "true",
-    "playing": "false",
+    "looping": true,
+    "playing": false,
     "img": "img/BoardButton.png"
   }
 ]

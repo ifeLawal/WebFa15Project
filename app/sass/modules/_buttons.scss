@@ -1,16 +1,20 @@
 .button {
  padding-top: 8px;
- margin: 10px 25px;
+ margin: 30px 20px 10px;
  background-color: #951c99;
  color:#fff;
  height: 40px;
  border-radius: 5px;
  cursor: pointer;
- margin-top:20px;
  -webkit-transition: 1s ease-in-out;
  -moz-transition: 1s ease-in-out;
  -o-transition: 1s ease-in-out;
  transition: 1s ease-in-out;
+}
+
+.loop-plays {
+  cursor: pointer;
+  width:20px;
 }
 
 /*.button {
