@@ -132,12 +132,30 @@ img {
  The major components, such as header, footer, articles.
  *
  */
+.hero {
+  padding: 35px 0;
+  background-image: url("../img/HeaderImage.jpg");
+  background-size: 100%;
+  background-position: center; }
+
 /*header {
 }
 
 .hero {
 
 }*/
+.topnav {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #8226df;
+  color: #000;
+  padding: 10px 0px;
+  border: 1px solid #dddddd; }
+
+.audioInterface {
+  text-align: center;
+  padding: 15px 0px; }
+
 /*nav {
 
 }
@@ -153,6 +171,32 @@ nav li {
     height: 30px;
     margin-left: 10px;
 }*/
+.playbutton {
+  cursor: pointer;
+  width: 30px; }
+
+.boardButtons {
+  width: 30px;
+  height: 30px;
+  cursor: pointer; }
+
+.sequencerTitle {
+  font-family: RoshiRegular; }
+
+.sequencer {
+  margin: 20px;
+  text-align: center; }
+
+.board {
+  margin: 10px 10px; }
+
+.volumeButton {
+  width: 30px; }
+
+.boardColor {
+  background-color: #44A3E2;
+  padding-bottom: 50px; }
+
 /*section {
 
 }
@@ -167,6 +211,14 @@ article {
 .l-fluid {
 	max-width: $wrapper-percent-width;
 }*/
+.sidebar {
+  margin-top: 75px; }
+
+.helper {
+  text-align: left;
+  margin: 10px 20px 30px 0px;
+  font-size: 1.5em; }
+
 /*footer {
 
 }*/
@@ -179,6 +231,17 @@ article {
  standalone component.
  *
  */
+.button {
+  padding-top: 8px;
+  margin: 10px 25px;
+  background-color: #951c99;
+  color: #fff;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 1s ease-in-out; }
+
 /*.button {
 	background-color: $cButton;
 	cursor: pointer;
@@ -210,73 +273,27 @@ article {
 /* Portrait and Landscape */
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait and Landscape */
+.currentInterface {
+  background-color: #44A3E2;
+  border-color: #7DC471;
+  border-style: solid;
+  border-width: 1px 1px 0px 0;
+  border-top-right-radius: .5em; }
+
 /*.error {
-	background-color: $cRed;
-}
+	background-color: $cRed;.
 .ok {
 	background-color: $cGreen;
 }*/
-.hero {
-  padding: 35px 0;
-  background-image: url("../img/HeaderImage.jpg");
-  background-size: 100%;
-  background-position: center; }
-
-.playbutton {
-  width: 30px;
-  height: 30px;
-  cursor: pointer; }
-
-.boardButtons {
-  width: 30px;
-  height: 30px;
-  cursor: pointer; }
-
 .centerPlz {
   text-align: center; }
 
-.thing {
-  font-family: RoshiRegular; }
-
-.topnav {
-  text-transform: uppercase;
-  text-align: center;
-  background-color: #8226df;
-  color: #000;
-  padding: 10px 0px;
-  border: 1px solid #dddddd; }
-
-.audioInterface {
-  text-align: center;
-  margin: 15px 0px; }
-
-.button {
-  padding-top: 8px;
-  margin: 10px 25px;
-  background-color: #951c99;
-  color: #fff;
-  height: 40px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 1s ease-in-out; }
-
 .tester {
   margin: 50px;
-  color: rgba(255, 0, 0, 0.3);
   width: 12%; }
 
 .button:hover + .tester {
   -webkit-transform: rotateX(360deg) translate(3em, 0);
   transform: rotateZ(360deg) translate(3em, 0); }
-
-.volumeButton {
-  width: 30px; }
-
-.board {
-  margin: 10px 10px; }
-
-.sequencer {
-  margin: 30px;
-  text-align: center; }
 
 

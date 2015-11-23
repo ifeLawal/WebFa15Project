@@ -12,6 +12,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <!--build:css css/styles.min.css-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/styles.css">
@@ -23,6 +24,8 @@
         <![endif]-->
     <h1 class="edm centerPlz hero"></h1>
 
+    <div class="container-fluid">
+      <div class="row">
         <div class="moveDown">
             <h2 class="col-md-3 topnav">
               Home
@@ -40,10 +43,12 @@
               FAQ
             </h2>
         </div>
+      </div>
+    </div>
 
-        <div class="">
-          <div class="">
-            <h2 class="col-md-5 audioInterface">
+        <div class="container-fluid">
+          <div class="row">
+            <h2 class="col-md-5 audioInterface currentInterface">
               Composition Maker
             </h2>
             <h2 class="col-md-5 audioInterface">
@@ -54,53 +59,49 @@
             </h2>
             </div>
           </div>
-        </div>
 
-        <div class="container">
-          <div class="row">
-            <div class="">
-              <h4 class="col-md-3 button slideright category">
-                <span class="tester">
+        <div class = "boardColor centerPlz">
+          <div class="container">
+            <div class="row">
+              <div class="">
+                <h4 class="col-md-3 button centerPlz slideright category">
                   Category
-                </span>
-              </h4>
-              <h4 class="col-md-3 button centerPlz loadBoard">
-                Load Board
-              </h4>
-              <h4 class="col-md-3 button centerPlz addSound">
-                Add Sound
-              </h4>
-              <div class="col-md-3 button centerPlz loop-plays">
-              <h4>
-                Loop Plays
-              </h4>
-              <!--<span>
-                (Play Shortcut: Spacebar)
-              </span>-->
+                </h4>
+                <h4 class="col-md-3 button centerPlz loadBoard">
+                  Load Board
+                </h4>
+                <h4 class="col-md-3 button centerPlz addSound">
+                  Add Sound
+                </h4>
+                <h4 class="col-md-3 button centerPlz loop-plays">
+                  Loop Plays
+                </h4>
+                <!--<span>
+                  (Play Shortcut: Spacebar)
+                </span>-->
+                </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <div class="container ">
+        <div class="container-fluid">
           <div class="row">
             <div class="col-md-10 board">
-              <h1 class="thing centerPlz">Sequencer Board </h1>
+              <h1 class="sequencerTitle centerPlz">Sequencer Board </h1>
               <div class="sequencer">
                   <div>
                     <img class="playbutton pb1" src="img/PlayButton.png">
-                    <img class="boardButtons bB0 B00" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 B01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 B02" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 B03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 B04" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 B05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 B06" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 B07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 B08" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 B09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 B10" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 B11" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b00" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b01" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b02" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b03" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b04" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b05" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b06" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b07" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b08" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b09" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b10" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b11" src="img/BoardButton2.png">
 <!--                <img class="boardButtons bB0 B12" src="img/BoardButton.png">
                     <img class="boardButtons bB0 B13" src="img/BoardButton2.png">
                     <img class="boardButtons bB0 B14" src="img/BoardButton.png">
@@ -272,7 +273,7 @@
                     <img class="volumeButton " src="img/DeleteButton.png">
                   </div>
                   <div>
-                    <img class="playbutton pb9" src="img/PlayButton.png">
+                    <img class="playbutton pb9" src ="img/PlayButton.png">
                     <img class="boardButtons bB8 b00" src="img/BoardButton.png">
                     <img class="boardButtons bB8 b01" src="img/BoardButton2.png">
                     <img class="boardButtons bB8 b02" src="img/BoardButton.png">
@@ -319,11 +320,11 @@
             </div>
 
             <div class="col-md-4">
-              <div>
-                <div class="helper"> <img src=""> Random  </div> <!--img/RandomCube.png-->
-                <div class="helper"> <img src=""> Record </div> <!--img/RecordButton.png -->
-                <div class="helper"> <img src=""> Download </div> <!-- img/Download.png -->
-                <div class="helper"> <img src=""> Share </span> </div>
+              <div class="sidebar">
+                <div class="helper"> <i class="fa fa-random"></i> Random  </div> <!--img/RandomCube.png-->
+                <div class="helper"> Record </div> <!--img/RecordButton.png -->
+                <div class="helper"> <i class="fa fa-download"></i> Download </div> <!-- img/Download.png -->
+                <div class="helper"> <i class="fa fa-share"></i> Share </span> </div>
               </div>
             </div>
 
@@ -332,6 +333,7 @@
             </div>
           </div>
         </div>
+      </div>
 
         <!--build:js js/main.min.js-->
         <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>

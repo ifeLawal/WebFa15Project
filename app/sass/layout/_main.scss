@@ -1,3 +1,35 @@
+.playbutton {
+ cursor:pointer;
+ width:30px;
+}
+
+.boardButtons {
+ width:30px;
+ height:30px;
+ cursor: pointer;;
+}
+
+.sequencerTitle {
+ font-family:RoshiRegular;
+}
+
+.sequencer{
+ margin:20px;
+ text-align: center;
+}
+
+.board{
+ margin:10px 10px;
+}
+
+.volumeButton{
+ width:30px;
+}
+
+.boardColor{
+  background-color: #44A3E2;
+  padding-bottom: 50px;
+}
 /*section {
 
 }

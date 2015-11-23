@@ -2,6 +2,8 @@ $( document ).ready(function() {
 
 	console.log("document is ready!");
 	var $data;
+	var subClassNum = 0;
+	var columnSize = 4;
 
 	//var playing = false;
 	var key = 'what';
@@ -24,22 +26,51 @@ $( document ).ready(function() {
 					samples.setLooping(key, sample.looping);
 			});
 		}
+	}
 
 	function play(pos) {
-		var playing = $data[pos].playing;
 
-		console.log($data[pos].playing);
+	//	console.log($data[pos].playing);
 
-		console.log(samples);
+		//console.log(samples);
 		if($data[pos].playing) {
 			samples.stop($data[pos].key);
 		}
 		else {
+			console.log("tester");
 			samples.start($data[pos].key);
 		}
 
 	}
 
+	function playThrough() {
+		for(var i = 0; i < $data.length; i++) {
+	}
+
+	function playThrough() {
+		if(subClassNum == 7) {
+			subClassNum = 0;
+		}
+		else{
+			subClassNum += 1;
+		}
+		var subClass = "b0" + subClassNum;
+		console.log(subClass);
+		for(var i = 0; i < $data.length; i++) {
+			if($data[i].subclass == subClass && $data[i].playing){
+				console.log("ester");
+				samples.start($data[i].key);
+				//console.log(samples.start($data[pos].key));
+			}
+			else{
+				console.log("bester");
+				samples.stop($data[i].key);
+				//console.log(samples.start($data[pos].key));
+			}
+		}
+
+		setTimeout(playThrough, 1000);
+	}
 /*
 	function toggleImgSrc(pos) {
 		if($data[pos].playing) {
@@ -53,23 +84,27 @@ $( document ).ready(function() {
 		}
 	}
 */
+		//var myVar = setInterval(playThrough, 1000);
 
-		$button.click(function( event ) {
+
+		$button.click(function ( event ) {
 			//alert( "The link will no longer take you to jquery.com" );
 			//event.preventDefault();
 			var pos = 0;
-			console.log($data[pos].class);
-			console.log($data.length);
-			while(!($(this).hasClass($data[pos].class)) && pos < $data.length - 1) {
+			//console.log($data[pos].class);
+			//console.log($data.length);
+			//($(this).hasClass($data[pos].class)) if it has the class
+			//($(this).hasClass($data[pos].subclass)) if it has the subclass
+			while(!($(this).hasClass($data[pos].subclass)) || !($(this).hasClass($data[pos].class)) && pos < $data.length - 1) {
 				pos++;
-				console.log($data[pos].class);
+				//console.log($(this).hasClass($data[pos].subclass));
+				//console.log($(this).hasClass($data[pos].class));
+				//console.log('tester');
+				//console.log($data[pos].subclass);
 			}
-			console.log($data[pos].class);
-
-			play(pos);
-
-			$data[pos].playing = !$data[pos].playing;
-			console.log($data[pos].playing);
+			console.log(pos);
+			//console.log($data[pos].class);
+			//console.log($data[pos].subclass);
 
 			if($data[pos].playing) {
 			// and animate, fade out, fade in, add and remove classes
@@ -80,8 +115,13 @@ $( document ).ready(function() {
 				$(this).attr("src", $data[pos].img);
 				console.log($data[pos].img);
 			}
+
+			$data[pos].playing = !$data[pos].playing;
+			//console.log($data[pos].playing);
+			//play(pos);
+			playThrough();
+
 		});
-	}
 
 
 	// set up button events
