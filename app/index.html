@@ -60,21 +60,36 @@
             </div>
           </div>
 
-        <div class = "boardColor centerPlz">
+        <div class = "boardColor">
           <div class="container">
             <div class="row">
               <div class="">
-                <h4 class="col-md-3 button centerPlz slideright category">
-                  Category
+                <h4 class="col-md-3 button slideright category nav">
+
+                  <li class="nav-item dropdown">
+                    Category
+                    <ul class="sub-menu">
+                      <li><a href="#">Chinese</a></li>
+                      <li><a href="#">Indian</a></li>
+                      <li><a href="#">African</a></li>
+                    </ul>
+                  </li>
+                  <div class="dropDown">
+                    <img src="img/DropDownMenu.png">
+                  <div>
                 </h4>
                 <h4 class="col-md-3 button centerPlz loadBoard">
                   Load Board
                 </h4>
+                <!--
                 <h4 class="col-md-3 button centerPlz addSound">
                   Add Sound
                 </h4>
+              -->
                 <h4 class="col-md-3 button centerPlz">
-                  <img class="loop-plays" src="img/LoopPlayButton.png"/>
+                  <div id="loop-playsBorder">
+                    <img class="loop-plays" src="img/LoopPlayButton.png"/>
+                  </div>
                   Loop Plays
                 </h4>
                 <!--<span>
@@ -89,230 +104,238 @@
             <div class="col-md-10 board">
               <h1 class="sequencerTitle centerPlz">Sequencer Board </h1>
               <div class="sequencer">
-                  <div>
+                  <div class="button-row">
                     <img class="playbutton pb1" src="img/PlayButton.png">
-                    <img class="boardButtons bB0 b00" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 b01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 b02" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 b03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 b04" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 b05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 b06" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 b07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 b08" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 b09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 b10" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 b11" src="img/BoardButton2.png">
-<!--                <img class="boardButtons bB0 B12" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 B13" src="img/BoardButton2.png">
-                    <img class="boardButtons bB0 B14" src="img/BoardButton.png">
-                    <img class="boardButtons bB0 B15" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b00" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b01" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b02" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b03" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b04" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b05" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b06" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b07" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b08" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b09" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 b10" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 b11" data-btn="11" data-playing="false" src="img/BoardButton2.png">
+
+<!--                <img class="boardButtons bB0 B12" data-btn="12" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 B13" data-btn="13" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB0 B14" data-btn="14" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB0 B15" data-btn="15" data-playing="false" src="img/BoardButton2.png">
 -->
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
                   </div>
-                  <div>
+                  <div class="button-row">
                     <img class="playbutton pb2" src="img/PlayButton.png">
-                    <img class="boardButtons bB1 b00" src="img/BoardButton.png">
-                    <img class="boardButtons bB1 b01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB1 b02" src="img/BoardButton.png">
-                    <img class="boardButtons bB1 b03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB1 b04" src="img/BoardButton.png">
-                    <img class="boardButtons bB1 b05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB1 b06" src="img/BoardButton.png">
-                    <img class="boardButtons bB1 b07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB1 b08" src="img/BoardButton.png">
-                    <img class="boardButtons bB1 b09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB1 b10" src="img/BoardButton.png">
-                    <img class="boardButtons bB1 b11" src="img/BoardButton2.png">
+                    <img class="boardButtons bB1 b00" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB1 b01" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB1 b02" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB1 b03" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB1 b04" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB1 b05" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB1 b06" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB1 b07" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB1 b08" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB1 b09" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB1 b10" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB1 b11" data-btn="11" data-playing="false" src="img/BoardButton2.png">
 <!--
-                    <img class="boardButtons bB1 b12" src="img/BoardButton.png">
-                    <img class="boardButtons bB1 b13" src="img/BoardButton2.png">
-                    <img class="boardButtons bB1 b14" src="img/BoardButton.png">
-                    <img class="boardButtons bB1 b15" src="img/BoardButton2.png">
+                    <img class="boardButtons bB1 b12" data-btn="12" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB1 b13" data-btn="13" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB1 b14" data-btn="14" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB1 b15" data-btn="15" data-playing="false" src="img/BoardButton2.png">
 -->
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
                   </div>
-                  <div>
+                  <div class="button-row">
                     <img class="playbutton pb3" src="img/PlayButton.png">
-                    <img class="boardButtons bB2 b00" src="img/BoardButton.png">
-                    <img class="boardButtons bB2 b01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB2 b02" src="img/BoardButton.png">
-                    <img class="boardButtons bB2 b03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB2 b04" src="img/BoardButton.png">
-                    <img class="boardButtons bB2 b05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB2 b06" src="img/BoardButton.png">
-                    <img class="boardButtons bB2 b07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB2 b08" src="img/BoardButton.png">
-                    <img class="boardButtons bB2 b09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB2 b10" src="img/BoardButton.png">
-                    <img class="boardButtons bB2 b11" src="img/BoardButton2.png">
+                    <img class="boardButtons bB2 b00" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB2 b01" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB2 b02" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB2 b03" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB2 b04" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB2 b05" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB2 b06" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB2 b07" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB2 b08" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB2 b09" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB2 b10" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB2 b11" data-btn="11" data-playing="false" src="img/BoardButton2.png">
 <!--
-                    <img class="boardButtons bB2 b12" src="img/BoardButton.png">
-                    <img class="boardButtons bB2 b13" src="img/BoardButton2.png">
-                    <img class="boardButtons bB2 b14" src="img/BoardButton.png">
-                    <img class="boardButtons bB2 b15" src="img/BoardButton2.png">
+                    <img class="boardButtons bB2 b12" data-btn="12" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB2 b13" data-btn="13" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB2 b14" data-btn="14" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB2 b15" data-btn="15" data-playing="false" src="img/BoardButton2.png">
 -->
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
                   </div>
 
-                  <div>
+                  <div class="button-row">
                     <img class="playbutton pb4" src="img/PlayButton.png">
-                    <img class="boardButtons bB3 b00" src="img/BoardButton.png">
-                    <img class="boardButtons bB3 b01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB3 b02" src="img/BoardButton.png">
-                    <img class="boardButtons bB3 b03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB3 b04" src="img/BoardButton.png">
-                    <img class="boardButtons bB3 b05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB3 b06" src="img/BoardButton.png">
-                    <img class="boardButtons bB3 b07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB3 b08" src="img/BoardButton.png">
-                    <img class="boardButtons bB3 b09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB3 b10" src="img/BoardButton.png">
-                    <img class="boardButtons bB3 b11" src="img/BoardButton2.png">
+                    <img class="boardButtons bB3 b00" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB3 b01" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB3 b02" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB3 b03" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB3 b04" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB3 b05" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB3 b06" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB3 b07" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB3 b08" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB3 b09" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB3 b10" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB3 b11" data-btn="11" data-playing="false" src="img/BoardButton2.png">
 <!--
-                    <img class="boardButtons bB3 b12" src="img/BoardButton.png">
-                    <img class="boardButtons bB3 b13" src="img/BoardButton2.png">
-                    <img class="boardButtons bB3 b14" src="img/BoardButton.png">
-                    <img class="boardButtons bB3 b15" src="img/BoardButton2.png">
+                    <img class="boardButtons bB3 b12" data-btn="12" data-playing="false"src="img/BoardButton.png">
+                    <img class="boardButtons bB3 b13" data-btn="13" data-playing="false"src="img/BoardButton2.png">
+                    <img class="boardButtons bB3 b14" data-btn="14" data-playing="false"src="img/BoardButton.png">
+                    <img class="boardButtons bB3 b15" data-btn="15" data-playing="false"src="img/BoardButton2.png">
 -->
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
-                  </div>
-                  <div>
+                  </div >
+                  <div class="button-row">
                     <img class="playbutton pb5" src="img/PlayButton.png">
-                    <img class="boardButtons bB4 b00" src="img/BoardButton.png">
-                    <img class="boardButtons bB4 b01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB4 b02" src="img/BoardButton.png">
-                    <img class="boardButtons bB4 b03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB4 b04" src="img/BoardButton.png">
-                    <img class="boardButtons bB4 b05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB4 b06" src="img/BoardButton.png">
-                    <img class="boardButtons bB4 b07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB4 b08" src="img/BoardButton.png">
-                    <img class="boardButtons bB4 b09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB4 b10" src="img/BoardButton.png">
-                    <img class="boardButtons bB4 b11" src="img/BoardButton2.png">
+                    <img class="boardButtons bB4 b00" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB4 b01" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB4 b02" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB4 b03" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB4 b04" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB4 b05" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB4 b06" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB4 b07" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB4 b08" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB4 b09" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB4 b10" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB4 b11" data-btn="11" data-playing="false" src="img/BoardButton2.png">
 <!--
-                    <img class="boardButtons bB4 b12" src="img/BoardButton.png">
-                    <img class="boardButtons bB4 b13" src="img/BoardButton2.png">
-                    <img class="boardButtons bB4 b14" src="img/BoardButton.png">
-                    <img class="boardButtons bB4 b15" src="img/BoardButton2.png">
+                    <img class="boardButtons bB4 b12" data-btn="12" data-playing="false"src="img/BoardButton.png">
+                    <img class="boardButtons bB4 b13" data-btn="13" data-playing="false"src="img/BoardButton2.png">
+                    <img class="boardButtons bB4 b14" data-btn="14" data-playing="false"src="img/BoardButton.png">
+                    <img class="boardButtons bB4 b15" data-btn="15" data-playing="false"src="img/BoardButton2.png">
 -->
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
                   </div>
-                  <div>
+                  <div class="button-row">
                     <img class="playbutton pb6" src="img/PlayButton.png">
-                    <img class="boardButtons bB5 b00" src="img/BoardButton.png">
-                    <img class="boardButtons bB5 b01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB5 b02" src="img/BoardButton.png">
-                    <img class="boardButtons bB5 b03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB5 b04" src="img/BoardButton.png">
-                    <img class="boardButtons bB5 b05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB5 b06" src="img/BoardButton.png">
-                    <img class="boardButtons bB5 b07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB5 b08" src="img/BoardButton.png">
-                    <img class="boardButtons bB5 b09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB5 b10" src="img/BoardButton.png">
-                    <img class="boardButtons bB5 b11" src="img/BoardButton2.png">
+                    <img class="boardButtons bB5 b00" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB5 b01" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB5 b02" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB5 b03" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB5 b04" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB5 b05" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB5 b06" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB5 b07" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB5 b08" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB5 b09" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB5 b10" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB5 b11" data-btn="11" data-playing="false" src="img/BoardButton2.png">
 <!--
-                    <img class="boardButtons bB5 b12" src="img/BoardButton.png">
-                    <img class="boardButtons bB5 b13" src="img/BoardButton2.png">
-                    <img class="boardButtons bB5 b14" src="img/BoardButton.png">
-                    <img class="boardButtons bB5 b15" src="img/BoardButton2.png">
+                    <img class="boardButtons bB5 b12" data-btn="12" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB5 b13" data-btn="13" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB5 b14" data-btn="14" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB5 b15" data-btn="15" data-playing="false" src="img/BoardButton2.png">
 -->
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
                   </div>
-                  <div>
+                  <div class="button-row">
                     <img class="playbutton pb7" src="img/PlayButton.png">
-                    <img class="boardButtons bB6 b00" src="img/BoardButton.png">
-                    <img class="boardButtons bB6 b01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB6 b02" src="img/BoardButton.png">
-                    <img class="boardButtons bB6 b03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB6 b04" src="img/BoardButton.png">
-                    <img class="boardButtons bB6 b05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB6 b06" src="img/BoardButton.png">
-                    <img class="boardButtons bB6 b07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB6 b08" src="img/BoardButton.png">
-                    <img class="boardButtons bB6 b09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB6 b10" src="img/BoardButton.png">
-                    <img class="boardButtons bB6 b11" src="img/BoardButton2.png">
+                    <img class="boardButtons bB6 b00" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB6 b01" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB6 b02" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB6 b03" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB6 b04" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB6 b05" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB6 b06" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB6 b07" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB6 b08" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB6 b09" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB6 b10" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB6 b11" data-btn="11" data-playing="false" src="img/BoardButton2.png">
 <!--
-                    <img class="boardButtons bB6 b12" src="img/BoardButton.png">
-                    <img class="boardButtons bB6 b13" src="img/BoardButton2.png">
-                    <img class="boardButtons bB6 b14" src="img/BoardButton.png">
-                    <img class="boardButtons bB6 b15" src="img/BoardButton2.png">
+                    <img class="boardButtons bB6 b12" data-btn="12" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB6 b13" data-btn="13" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB6 b14" data-btn="14" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB6 b15" data-btn="15" data-playing="false" src="img/BoardButton2.png">
 -->
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
 
+                  </div>
+
+                  <div class="circle-plus">
+                    <div class="circle">
+                      <div class="circle-plus-horizontal"></div>
+                      <div class="circle-plus-vertical"></div>
+                    </div>
                   </div>
                   <!--
-                  <div>
+                  <div class="button-row">
                     <img class="playbutton pb8" src="img/PlayButton.png">
-                    <img class="boardButtons bB7 b00" src="img/BoardButton.png">
-                    <img class="boardButtons bB7 b01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB7 b02" src="img/BoardButton.png">
-                    <img class="boardButtons bB7 b03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB7 b04" src="img/BoardButton.png">
-                    <img class="boardButtons bB7 b05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB7 b06" src="img/BoardButton.png">
-                    <img class="boardButtons bB7 b07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB7 b08" src="img/BoardButton.png">
-                    <img class="boardButtons bB7 b09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB7 b10" src="img/BoardButton.png">
-                    <img class="boardButtons bB7 b11" src="img/BoardButton2.png">
-                    <img class="boardButtons bB7 b12" src="img/BoardButton.png">
-                    <img class="boardButtons bB7 b13" src="img/BoardButton2.png">
-                    <img class="boardButtons bB7 b14" src="img/BoardButton.png">
-                    <img class="boardButtons bB7 b15" src="img/BoardButton2.png">
+                    <img class="boardButtons bB7 b00" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB7 b01" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB7 b02" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB7 b03" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB7 b04" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB7 b05" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB7 b06" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB7 b07" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB7 b08" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB7 b09" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB7 b10" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB7 b11" data-btn="11" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB7 b12" data-btn="12" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB7 b13" data-btn="13" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB7 b14" data-btn="14" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB7 b15" data-btn="15" data-playing="false" src="img/BoardButton2.png">
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
                   </div>
-                  <div>
+                  <div class="button-row">
                     <img class="playbutton pb9" src ="img/PlayButton.png">
-                    <img class="boardButtons bB8 b00" src="img/BoardButton.png">
-                    <img class="boardButtons bB8 b01" src="img/BoardButton2.png">
-                    <img class="boardButtons bB8 b02" src="img/BoardButton.png">
-                    <img class="boardButtons bB8 b03" src="img/BoardButton2.png">
-                    <img class="boardButtons bB8 b04" src="img/BoardButton.png">
-                    <img class="boardButtons bB8 b05" src="img/BoardButton2.png">
-                    <img class="boardButtons bB8 b06" src="img/BoardButton.png">
-                    <img class="boardButtons bB8 b07" src="img/BoardButton2.png">
-                    <img class="boardButtons bB8 b08" src="img/BoardButton.png">
-                    <img class="boardButtons bB8 b09" src="img/BoardButton2.png">
-                    <img class="boardButtons bB8 b10" src="img/BoardButton.png">
-                    <img class="boardButtons bB8 b11" src="img/BoardButton2.png">
-                    <img class="boardButtons bB8 b12" src="img/BoardButton.png">
-                    <img class="boardButtons bB8 b13" src="img/BoardButton2.png">
-                    <img class="boardButtons bB8 b14" src="img/BoardButton.png">
-                    <img class="boardButtons bB8 b15" src="img/BoardButton2.png">
+                    <img class="boardButtons bB8 b00" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB8 b01" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB8 b02" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB8 b03" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB8 b04" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB8 b05" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB8 b06" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB8 b07" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB8 b08" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB8 b09" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB8 b10" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB8 b11" data-btn="11" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB8 b12" data-btn="12" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB8 b13" data-btn="13" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB8 b14" data-btn="14" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB8 b15" data-btn="15" data-playing="false" src="img/BoardButton2.png">
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
                   </div>
                 --><!--
-                  <div>
+                  <div class="button-row">
                     <img class="playbutton pb20" src="img/PlayButton.png">
-                    <img class="boardButtons bB900" src="img/BoardButton.png">
-                    <img class="boardButtons bB901" src="img/BoardButton2.png">
-                    <img class="boardButtons bB902" src="img/BoardButton.png">
-                    <img class="boardButtons bB903" src="img/BoardButton2.png">
-                    <img class="boardButtons bB904" src="img/BoardButton.png">
-                    <img class="boardButtons bB905" src="img/BoardButton2.png">
-                    <img class="boardButtons bB906" src="img/BoardButton.png">
-                    <img class="boardButtons bB907" src="img/BoardButton2.png">
-                    <img class="boardButtons bB908" src="img/BoardButton.png">
-                    <img class="boardButtons bB909" src="img/BoardButton2.png">
-                    <img class="boardButtons bB910" src="img/BoardButton.png">
-                    <img class="boardButtons bB911" src="img/BoardButton2.png">
-                    <img class="boardButtons bB912" src="img/BoardButton.png">
-                    <img class="boardButtons bB913" src="img/BoardButton2.png">
-                    <img class="boardButtons bB914" src="img/BoardButton.png">
-                    <img class="boardButtons bB915" src="img/BoardButton2.png">
+                    <img class="boardButtons bB900" data-btn="0" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB901" data-btn="1" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB902" data-btn="2" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB903" data-btn="3" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB904" data-btn="4" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB905" data-btn="5" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB906" data-btn="6" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB907" data-btn="7" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB908" data-btn="8" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB909" data-btn="9" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB910" data-btn="10" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB911" data-btn="11" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB912" data-btn="12" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB913" data-btn="13" data-playing="false" src="img/BoardButton2.png">
+                    <img class="boardButtons bB914" data-btn="14" data-playing="false" src="img/BoardButton.png">
+                    <img class="boardButtons bB915" data-btn="15" data-playing="false" src="img/BoardButton2.png">
                     <img class="volumeButton " src="img/ActiveVolume.png">
                     <img class="volumeButton " src="img/DeleteButton.png">
                   </div>

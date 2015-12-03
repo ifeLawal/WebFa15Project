@@ -30,6 +30,144 @@
   background-color: #44A3E2;
   padding-bottom: 50px;
 }
+
+.nav a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	line-height: 40px;
+	padding: 0 12px;
+	margin: 0 12px;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	color: #444;
+}
+.nav-item{
+  position: absolute;
+  left:20px;
+}
+
+.nav li li a {
+	border-bottom: solid 1px #444;
+	padding: 0;
+}
+
+.nav li li:last-child a {
+	border-bottom: none;
+}
+
+ul.sub-menu {
+	display: none;
+}
+
+.search-bar {
+	display: inline-block;
+}
+
+// draw circle css
+.circle-plus {
+  height:$circleHeight;
+  width:$circlewidth;
+  font-size:$iconSize /*Will change icon size*/;
+}
+
+.circle-plus .circle {
+  position: relative;
+  top:3px;
+  left: 141px;
+  width: 6em;
+  height: 6em;
+  border-radius: 100%;
+  border: solid .8em #DFDAD7;
+}
+
+.circle {
+  transition: 1s ease-in-out;
+}
+
+.circle-plus-horizontal {
+  position: absolute;
+  background-color: #DFDAD7;
+  width: $widthHoriHeightVert;
+  height: $widthVertHeightHori;
+  top: $topHoriLeftVert;
+  left: $topVertLeftHori;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.circle-plus-vertical {
+  position: absolute;
+  cursor: pointer;
+  background-color: #DFDAD7;
+  width: $widthVertHeightHori;
+  height: $widthHoriHeightVert;
+  top: $topVertLeftHori;
+  left: $topHoriLeftVert;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+// animate circle css
+.circle-plus-horizontal.active {
+  -webkit-transform: rotateZ(405deg);
+-moz-transform: rotateZ(405deg);
+-o-transform: rotateZ(405deg);
+-ms-transform: rotateZ(405deg);
+transform: rotateZ(405deg);
+/*animation: tutsRotate 1s 0s;*/
+
+}
+
+.circle-plus-vertical.active {
+  -webkit-transform: rotateZ(405deg);
+-moz-transform: rotateZ(405deg);
+-o-transform: rotateZ(405deg);
+-ms-transform: rotateZ(405deg);
+transform: rotateZ(405deg);
+/*animation: tutsRotate 1s 0s;*/
+
+}
+/*
+ .circle-plus:hover .circle-plus-horizontal {
+   -webkit-transform: rotateZ(405deg);
+-moz-transform: rotateZ(405deg);
+-o-transform: rotateZ(405deg);
+-ms-transform: rotateZ(405deg);
+transform: rotateZ(405deg);
+/*animation: tutsRotate 1s 0s;
+ }
+ */
+ .circle.active {
+   -webkit-transform: translate($circleTranslate);
+   -moz-transform: translate($circleTranslate);
+   -o-transform: translate($circleTranslate);
+   -ms-transform: translate($circleTranslate);
+   transform: translate($circleTranslate);
+ }
+
+
+ .circle-plus.active .circle-plus-vertical {
+   -webkit-transform: rotateZ(405deg);
+-moz-transform: rotateZ(405deg);
+-o-transform: rotateZ(405deg);
+-ms-transform: rotateZ(405deg);
+transform: rotateZ(405deg);
+
+/*-webkit-transform: translate(300px);
+-moz-transform: translate(300px);
+-o-transform: translate(300px);
+-ms-transform: translate(300px);
+transform: translate(300px);*/
+ }
+
 /*section {
 
 }

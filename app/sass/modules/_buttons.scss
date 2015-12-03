@@ -1,20 +1,46 @@
 .button {
  padding-top: 8px;
- margin: 30px 20px 10px;
+ margin: 25px 25px 25px;
  background-color: #951c99;
+ width: 250px;
  color:#fff;
  height: 40px;
  border-radius: 5px;
  cursor: pointer;
+ position: relative;
  -webkit-transition: 1s ease-in-out;
  -moz-transition: 1s ease-in-out;
  -o-transition: 1s ease-in-out;
  transition: 1s ease-in-out;
 }
 
-.loop-plays {
+.dropDown {
+  position: absolute;
+  top:0px;
+  right:0px;
+  border-radius: 5px;
+  border: 2px solid black;
+  width:35px;
+}
+
+
+#loop-playsBorder{
+  border-radius: 5px;
+  border: 2px solid black;
   cursor: pointer;
-  width:20px;
+  position: absolute;
+  left:0px;
+  top:0px;
+  padding:4px 2px 2px 3px;
+  width:35px;
+
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.loop-plays {
 }
 
 /*.button {

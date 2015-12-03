@@ -6,7 +6,9 @@
     "subclass": "b00",
     "looping": true,
     "playing": false,
-    "img": "img/BoardButton.png"
+    "img": "img/BoardButton.png",
+    "activeImg": "img/NowPlayingButton.png",
+    "playBtnImg": "img/PlayButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
@@ -15,7 +17,8 @@
     "subclass": "b01",
     "looping": true,
     "playing": false,
-    "img": "img/BoardButton2.png"
+    "img": "img/BoardButton2.png",
+    "activeImg": "img/NowPlayingButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
@@ -24,7 +27,8 @@
     "subclass": "b02",
     "looping": true,
     "playing": false,
-    "img": "img/BoardButton.png"
+    "img": "img/BoardButton.png",
+    "activeImg": "img/NowPlayingButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
@@ -33,7 +37,8 @@
     "subclass": "b03",
     "looping": true,
     "playing": false,
-    "img": "img/BoardButton2.png"
+    "img": "img/BoardButton2.png",
+    "activeImg": "img/NowPlayingButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
@@ -42,7 +47,8 @@
     "subclass": "b04",
     "looping": true,
     "playing": false,
-    "img": "img/BoardButton.png"
+    "img": "img/BoardButton.png",
+    "activeImg": "img/NowPlayingButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
@@ -51,7 +57,8 @@
     "subclass": "b05",
     "looping": true,
     "playing": false,
-    "img": "img/BoardButton2.png"
+    "img": "img/BoardButton2.png",
+    "activeImg": "img/NowPlayingButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
@@ -60,7 +67,8 @@
     "subclass": "b06",
     "looping": true,
     "playing": false,
-    "img": "img/BoardButton.png"
+    "img": "img/BoardButton.png",
+    "activeImg": "img/NowPlayingButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
@@ -69,7 +77,8 @@
     "subclass": "b07",
     "looping": true,
     "playing": false,
-    "img": "img/BoardButton2.png"
+    "img": "img/BoardButton2.png",
+    "activeImg": "img/NowPlayingButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
@@ -78,7 +87,8 @@
     "subclass": "b08",
     "looping": true,
     "playing": false,
-    "img": "img/BoardButton.png"
+    "img": "img/BoardButton.png",
+    "activeImg": "img/NowPlayingButton.png"
   },
   {
     "path": "../snd/bass_01.ogg",
