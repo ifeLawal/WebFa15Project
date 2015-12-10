@@ -13,6 +13,12 @@ var button = $('.circle');
 
 var movingOut = true;
 
+var paddingBottom = $(window).height() - $('.boardColor').height() - $('.boardColor').position().top;
+$('.boardColor').css('padding-bottom', paddingBottom);
+
+var paddingRight = 1141 / 1317 * $('.circle').position().left;
+$('.circle').css('left', paddingRight);
+
 // vars
 //var playing = false;
 //var playing = "false";
@@ -173,9 +179,14 @@ $playButton.click(function() {
 	var element = $(this);
 	$(this).attr("src","img/PauseButton.png");
 	//$(this).attr("src","img/PlayButton.png");
+	var pos = $(this).attr("data-btn");
+	
+	var note = 12 * pos;
+	playNote(300 + note, context.currentTime, nextNoteTime);
+
 	setTimeout(function() {
 	  element.attr("src","img/PlayButton.png");
-		console.log("what?");
+
 	}, nextNoteTime * 1000);
 
 });
